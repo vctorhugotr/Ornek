@@ -48,10 +48,10 @@ public class Kişi {
     public void setMaas(double maas) {
         this.maas = maas;
     }
-    public double yıllık_maas_getir()
+    public double yillik_maas_getir()
     {
-        double yillik_mass=this.maas *12;
-        return yillik_mass;
+        double yillik_maas=this.maas *12;
+        return yillik_maas;
     }
     public String adSoyadGetir()
     {
@@ -60,12 +60,12 @@ public class Kişi {
 
     @Override
     public String toString() {
-        return "Kişi{" +
-                "no=" + no +
-                ", ad=" + ad +
-                ", soyad=" + soyad +
-                ", maas=" + maas +
-                ",Yıllık Mass"+yıllık_maas_getir()+
+        return "Kişi{" +"\n" +
+                ",no=" + no+ "\n" +
+                ", ad=" + ad +"\n" +
+                ", soyad=" + soyad +"\n" +
+                ", maas=" + maas +"\n"+
+                ",yillik Maas="+yillik_maas_getir() +
                 ",Ad Soyad:"+adSoyadGetir() +
                 '}';
     }
