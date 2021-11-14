@@ -7,6 +7,9 @@ public class Kişi {
     private String soyad;
     private double maas;
 
+    //consructor overloding
+    //obje  oluştururken hangi consructor uyuyorsa,onu çalıştırıyor.
+
     public Kişi() {
     }
 

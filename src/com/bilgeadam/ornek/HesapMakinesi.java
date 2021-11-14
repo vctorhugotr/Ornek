@@ -4,7 +4,13 @@ public class HesapMakinesi {
 
     public int topla(int sayi1, int sayi2)
     {
+        System.out.println("int topla çalıştır");
         return sayi1+sayi2;
+    }
+    public double topla(double sayi1, double sayi2)
+    {
+        System.out.println("double topla çalıştır");
+        return sayi1 + sayi2;
     }
 
     public int carp(int sayi1, int sayi2)
@@ -33,7 +39,11 @@ public class HesapMakinesi {
     System.out.println(hm.cikar(15,7));
 
     int sonuc=hm.topla(9,14);
+
     System.out.println("sonuç:"+sonuc);
+
+    System.out.println("---------------");
+    System.out.println(hm.topla(7.1,5.6));
     }
 
 }
